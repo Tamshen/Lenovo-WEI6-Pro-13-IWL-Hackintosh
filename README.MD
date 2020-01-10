@@ -1,8 +1,7 @@
-# Lenovo-WEI6-Pro-13-IWL-Hackintosh EFI
+# Lenovo-WEI6-Pro-13-IWL-Hackintosh
 此笔记本的其它名字（外观、配置基本一样）：
 > - **Lenovo Thinkbook 13S**
 > - **Lenovo 扬天 S540**
-
 
 ## 配置信息
 
@@ -20,26 +19,33 @@
 
 ## 各项功能情况
 
-
-### 无问题
-
-1. CPU睿频正常（通过CPU-S查询）
-2. 亮度调节正常
-3. 开启HiDPI -> [开启方法点我传送](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)
-4. 声音输入输出正常（耳机孔输出正常）
-5. 睡眠正常
-6. Hdmi接口接入显示器正常
-7. 蓝牙正常
-
-### 有问题
-1. **电池电量显示为0**
-> 我已经拆解了**DSDT**16位，打了0电量补丁，但无效。详细可见ACPI的`DSDT.aml`。
-2. **TouchID？（虽然识别了指纹模块，但估计搞不了）**
-3. **触控板和FN快捷键（还没去看）**
-
+|  硬件情况  | 名称            |
+|:--------:|--------------------|
+|   ✔   | 摄像头                 |
+|   ✔   | 蓝牙                 |
+|   ✔   | 扬声器                 |
+|   ❌   | 触摸板    |
+|   ❌   | 指纹模块    |
+|   ❌   | 独显                 |
+|  **接口情况**  | ------            |
+|   ✔   | HDMI（外接显示器）            |
+|   ✔   | Type-c（数据）           |
+|   ✔   | 3.5mm耳机接口             |
+|   ✔   | USB接口*2                 |
+|  **功能情况**  | ------           |
+|   ✔   | CPU睿频（通过CPU-S查询）     |
+|   ✔   | 亮度调节           |
+|   ✔   | 开启HiDPI -> [开启方法点我传送](https://github.com/xzhih/one-key-hidpi/blob/master/README-zh.md)             |
+|   ✔   | 声音输入输出正常（耳机孔输出正常）  |
+|   ✔   | 睡眠正常  |
+|   ❌   | **电池电量显示为0**  |
 
 
 ## 近期更新记录(更多请查看Commits)
+
+**2020/01/10**
+> - D>删除 多余驱动和SSDT
+> - F>修复 屏幕亮度（上个版本不小心删了） 
 
 
 **2020/01/07**
@@ -63,8 +69,11 @@
 [黑果小兵的博客 macOS Mojave 10.14.5 镜像下载](https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html)
 
 
-## 系统截图
+## 测试截图
 
-![系统截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/1.png)
-![系统截图2](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/blob/master/_images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-19%20%E4%B8%8B%E5%8D%888.31.53.png?raw=true)
-![系统截图3](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/blob/master/_images/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-19%20%E4%B8%8B%E5%8D%888.33.14.png?raw=true)
+![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/1.png)
+![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/2.png)
+![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/3.png)
+![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/4.png)
+![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/5.png)
+
