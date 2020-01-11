@@ -26,7 +26,8 @@
 |   ✔   | 扬声器                 |
 |   ❌   | 触摸板    |
 |   ❌   | 指纹模块    |
-|   ❌   | 独显                 |
+|   ❌   | 独显（AMD可能有机会）                 |
+|   ❌   | WIFI（AC9650直接死亡，请使用USB网卡或更换）  |
 |  **接口情况**  | ------            |
 |   ✔   | HDMI（外接显示器）            |
 |   ✔   | Type-c（数据）           |
@@ -43,10 +44,26 @@
 
 ## 近期更新记录(更多请查看Commits)
 
+**2020/01/11**
+
+此次更新主要是全部流程走一遍，看看有没有错误。
+
+测试了10.15.2(19C57)，但我是`CF-WU810N`网卡，10.15无法装驱动！但装低版本安装驱动后升级到10.15.2(19C57)可以用（其它功能具体没测试，应该会有小问题）。
+
+我根据小新的OC试了试OC引导（10.15.2(19C57)），OC启动速度快很多，但还有很多问题！
+
+电池驱动依然还没解决，但可以接电源外接鼠标稳定使用。
+
+> - U>更新 macOS版本更新到**10.14.6(18G87)**
+> - U>更新 Clover 版本为 **5033**
+> - A>添加 `NoTouchID.kext` 驱动 屏蔽TouchID
+> - F>修复 HDMI外接显示器后笔记本屏幕黑屏
+> - A>添加 OC引导尝鲜（直接装10.15.2(19C57)，还有很多问题）
+
+
 **2020/01/10**
 > - D>删除 多余驱动和SSDT
 > - F>修复 屏幕亮度（上个版本不小心删了） 
-
 
 **2020/01/07**
 > - A>添加 `VoodooHDA.kext` 驱动 修复声音
@@ -66,14 +83,10 @@
 
 ## 系统镜像下载
 
-[黑果小兵的博客 macOS Mojave 10.14.5 镜像下载](https://blog.daliansky.net/macOS-Mojave-10.14.5-18F132-official-version-with-Clover-4928-original-image.html)
+[黑果小兵的博客 macOS Mojave 10.14.6 镜像下载](https://blog.daliansky.net/macOS-Mojave-10.14.6-18G87-Release-version-with-Clover-5033-original-image.html#10146-18g87-下载链接)
 
 
 ## 测试截图
 
 ![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/1.png)
 ![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/2.png)
-![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/3.png)
-![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/4.png)
-![截图](https://raw.githubusercontent.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/master/_images/5.png)
-
