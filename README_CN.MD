@@ -1,12 +1,15 @@
 # Lenovo-WEI6-Pro-13-IWL-Hackintosh
-此笔记本的其它名字（外观、配置基本一致）：
+>[**中文说明**](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/blob/master/README_CN.MD) | **[English](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/blob/master/README.MD)**
+>
+> **威 6 Pro/Thinkbook 13s/扬天 S540 交流群**：[681175557](https://jq.qq.com/?_wv=1027&k=54ugIhI)
+
+**此笔记本的其它名字（外观、配置基本一致）：**
 
 > - **Lenovo 扬天 WEI 6 PRO**
 > - **Lenovo Thinkbook 13S**
 > - **Lenovo 扬天 S540**
 
 
-> **威 6 Pro/Thinkbook 13s/扬天 S540 交流群**：[681175557](https://jq.qq.com/?_wv=1027&k=54ugIhI)
 
 ### **注意：仅适配`10.14.6`！`10.15`未适配！如有需求请自行测试！**
 
