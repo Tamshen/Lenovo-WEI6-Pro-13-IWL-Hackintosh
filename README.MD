@@ -34,17 +34,17 @@ The EFI of this repository is limited to macOS `10.14.6`
 
 | Status | Name                 | info                                                         |
 | :----: | -------------------- | ------------------------------------------------------------ |
-|   ✔    | Battery              | The functions are normal，[Can set battery conservation mode](#Maybe you need to turn on these features) |
+|   ✔    | Battery              | The functions are normal，[Can set battery conservation mode](#maybe-you-need-to-turn-on-these-features) |
 |   ✔    | Camera               | USB custom port：`HS07`                                      |
 |   ✔    | Bluetooth            | Either it can't be closed or it can't be opened, I chose to open it (test found that the file can be sent to the phone, but the phone can't send the file to the computer, and Airdrop cannot be used) |
-|   ✔    | Speaker / Microphone | `ALC257`,**Counterfeit** ID `11` ,The functions are normal, and the headphone jack is automatically switched.([Shortcut key](#Shortcut key)) |
-|   ✔    | Trackpad             | The author has limited ability and only implements polling mode([VoodooI2C、HID](https://github.com/alexandred/VoodooI2C/releases)),Support gesture, support close([Shortcut key](#Shortcut key)),[Need to be set separately, please click me for setup tutorial!](#Touchpad setup tutorial) |
+|   ✔    | Speaker / Microphone | `ALC257`,**Counterfeit** ID `11` ,The functions are normal, and the headphone jack is automatically switched.([Shortcut key](#shortcut-key)) |
+|   ✔    | Trackpad             | The author has limited ability and only implements polling mode([VoodooI2C、HID](https://github.com/alexandred/VoodooI2C/releases)),Support gesture, support close([Shortcut key](#shortcut-key)),[Need to be set separately, please click me for setup tutorial!](#touchpad-setup-tutorial) |
 |   ✔    | HDMI                 | The external display is normal (plugged and unplugged many times during the test) |
 |   ✔    | Type-C               | USB custom port：`HS03`                                      |
 |   ✔    | 3.5mm headphone jack | Supports automatic switching of headset plug and unplug.     |
 |   ✔    | USB                  | USB custom port：`HS01`、`HS02`                              |
 |   ✔    | CPU Turbo            | Query via CPU-S                                              |
-|   ✔    | Brightness           | The EC codes of the shortcut keys `F11` and` F12` are `Q82`,` Q83`. I wrote a hot patch, **but it was invalid**, but there was one [Shortcut key](#Shortcut key) |
+|   ✔    | Brightness           | The EC codes of the shortcut keys `F11` and` F12` are `Q82`,` Q83`. I wrote a hot patch, **but it was invalid**, but there was one [Shortcut key](#shortcut-key) |
 |   ❓❌   | Sleep                | After you click Sleep, after a while, the power button flashes white to indicate that you have completely slept, but the system will runs more slowly than before after waking up! There is also a case where it cannot be waked up (directly black screen or restart !!!) |
 |   ❌    | Fingerprint          | USB custom blocked                                           |
 |   ❌    | Graphics             | Blocked                                                      |
