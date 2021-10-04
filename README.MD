@@ -1,3 +1,10 @@
+# Warning
+# We are very sorry, the equipment has been sold and the update is stopped.
+
+
+-------------
+
+
 # Lenovo-WEI6-Pro-13-IWL-Hackintosh
 
 > [**中文说明**](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/blob/master/README_CN.MD) | **[English](https://github.com/Tamshen/Lenovo-WEI6-Pro-13-IWL-Hackintosh/blob/master/README.MD)**
